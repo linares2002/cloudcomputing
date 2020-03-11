@@ -1,2 +1,2 @@
-sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+sudo apt-get -y --no-install-recommends install curl apt-transport-https ca-certificates software-properties-common
 

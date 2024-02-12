@@ -29,7 +29,7 @@ services:
      - telemetry
 
   grafana:
-    image: grafana/grafana:8.0.2
+    image: grafana/grafana
     container_name: grafana
     volumes:
      - ./grafana-data/:/var/lib/grafana
